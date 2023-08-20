@@ -9,7 +9,7 @@ export default function Header() {
         
       <Link to='/'>Home</Link>
       <Link >Search</Link>
-      <Link>Discover</Link>
+      <Link to='/discover'>Discover</Link>
       <Link>Notification</Link>
     </nav>
     </div>
