@@ -11,11 +11,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
+        <div className="flex">
         <Header/>
             <Routes>
                 <Route path="/" element={<App />} />
                 <Route path="discover" element={<Discover />} />
             </Routes>
+        </div>
     </Router>
   </React.StrictMode>
 );
